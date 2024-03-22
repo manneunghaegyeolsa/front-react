@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #A0C487;
+  padding: 20px;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-title {
+  font-size: 2rem;
+}
+
+.App-body {
+  margin-top: 50px;
+}
+
+.App-body form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-body input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.App-body button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #A0C487;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.App-body button[type="submit"]:hover {
+  background-color: #A0C487;
+}
