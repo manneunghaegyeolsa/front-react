@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import './Headers.css';
+import Page1 from '../pages/Page1';
 
 const Header = () => {
     return (
@@ -23,7 +24,7 @@ const Header = () => {
                     </ul>
                 </nav>
             </header>
-            
+
         </Router>
     );
 };
